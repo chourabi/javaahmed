@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>helloworld</label>
+		<id>366</id>
+		<version>0</version>
+	</settings>
+	<users>
+		<user>
+			<path>helloworld.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>Tuto\Tuto.jcp</path>
+		</project>
+		<project>
+			<path>helloworld.jcp</path>
+		</project>
+	</projects>
+</workspace>

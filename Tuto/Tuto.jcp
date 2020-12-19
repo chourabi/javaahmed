@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+	<settings>
+		<label>Tuto</label>
+		<root_path>\</root_path>
+		<output_path>classes\</output_path>
+		<source_path>src\</source_path>
+		<jdkprofile_ref>JDK version 1.8.0_271</jdkprofile_ref>
+		<compiler_ref/>
+		<ant_ref/>
+	</settings>
+	<ant_events/>
+	<run_items/>
+	<runtimes>
+		<runtime>
+			<label>&lt;Default&gt;</label>
+			<application_ref/>
+			<applet_ref/>
+			<debugger_ref/>
+			<param/>
+			<run>Tuto</run>
+			<verify>true</verify>
+		</runtime>
+	</runtimes>
+	<libraries/>
+	<files>
+		<include>
+			<folderitem>
+				<path>src</path>
+			</folderitem>
+			<fileitem>
+				<path>src\Animal.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Cat.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Ennemis.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Hero.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\HeroActions.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Operation.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Shape.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Square.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Tuto.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\TutoFrame.java</path>
+				<folder>src</folder>
+			</fileitem>
+		</include>
+	</files>
+	<tasks>
+		<todotaskitem>
+			<description>TODO: Add your code here</description>
+			<filepath>src\Operation.java</filepath>
+			<line>7</line>
+			<timestamp>1608047976</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO: Add your code here</description>
+			<filepath>src\Animal.java</filepath>
+			<line>6</line>
+			<timestamp>1608381558</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO: Add your code here</description>
+			<filepath>src\Ennemis.java</filepath>
+			<line>10</line>
+			<timestamp>1608383139</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO: Add your code here</description>
+			<filepath>src\Hero.java</filepath>
+			<line>19</line>
+			<timestamp>1608383295</timestamp>
+		</todotaskitem>
+	</tasks>
+</project>
