@@ -56,7 +56,7 @@ public class Tuto {
         
         
         
-	  ArrayList<Integer> x = new ArrayList<Integer>();
+	 /* ArrayList<Integer> x = new ArrayList<Integer>();
 	  
 	  
 	  
@@ -64,7 +64,7 @@ public class Tuto {
 	  x.add(5);
 	  x.add(6);
 	  x.add(7);
-	  System.out.println(x.toString()+x.size());
+	  System.out.println(x.toString()+x.size());*/
 	  
 	  
 	  
@@ -77,7 +77,7 @@ public class Tuto {
 	  
 	  //x.remove(0);
 	  
-	  x.set(0,192);
+	 // x.set(0,192);
 	  
 	  
 	  
@@ -109,7 +109,7 @@ public class Tuto {
 		for(Cat c : cats){
 			System.out.println(c.name);
 		}*/
-		Cat c1 = new Cat("michou");
+		/*Cat c1 = new Cat("michou");
 		Cat c2 = new Cat("sousou");
 		Cat c3 = new Cat("mimi");
 		
@@ -125,7 +125,72 @@ public class Tuto {
 		
 		Cat tm = cats.get("cat1");
 		
-		System.out.println(tm.name);	
+		System.out.println(tm.name);	*/
+		
+		
+	/*	ArrayList<Integer> numbers = new ArrayList<Integer>();
+		
+		numbers.add(15);
+		numbers.add(9);
+		numbers.add(2);
+		numbers.add(18);
+		
+		Iterator<Integer> it = numbers.iterator();
+		
+		while( it.hasNext() ){
+			Integer i = it.next();
+			
+			if( i < 10 ){
+				it.remove();
+			}
+		}
+		
+		System.out.println(numbers);*/
+		
+		
+		
+		
+	/*	int x = 15;
+		int y = 0;
+		float r = 0;
+		
+		try{
+			r = x/y;
+		}catch( ArithmeticException e ){
+			System.out.println("Sorry can't devide by zero");
+		}catch( Exception e ){
+			System.out.println("Something went wrong : "+e.toString());
+		}
+		
+		System.out.println( "x / y = "+ r );*/
+		
+		
+		// custom Exception
+		
+		
+		Cat c;
+		try{
+			c = new Cat("zouzou");
+			
+			c.animalSleep(10);
+			
+		}catch( ErrException e ){
+			System.out.println(e);
+		}catch ( SleepException e ){
+			System.out.println(e);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 			
 			
 			
